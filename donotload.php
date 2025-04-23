@@ -18,7 +18,7 @@
  * TODO describe file donotload
  *
  * @package    local_classalias
- * @copyright  2024 YOUR NAME <your@email.com>
+ * @copyright  2024 Mark Sharp <mark.sharp@solent.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
@@ -83,6 +83,7 @@ class context_module extends \core\context\module {}
 class context_system extends \core\context\system {}
 class context_user extends \core\context\user {}
 abstract class context_helper extends \core\context_helper {}
+class core_component extends \core\component {}
 class core_plugin_manager extends \core\plugin_manager {}
 class core_renderer extends \core\output\core_renderer {}
 class core_renderer_ajax extends \core\output\core_renderer_ajax {}
