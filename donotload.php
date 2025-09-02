@@ -22,6 +22,8 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
+use core_course\cached_cm_info as Core_courseCached_cm_info;
+
 // phpcs:ignoreFile
 
 die();
@@ -68,10 +70,14 @@ interface cache_store_interface extends \core_cache\store_interface {}
 class cache_ttl_wrapper extends \core_cache\ttl_wrapper {}
 class cacheable_object extends \core_cache\cacheable_object_interface {}
 class cacheable_object_array extends \core_cache\cacheable_object_array {}
+class cached_cm_info extends \core_course\cached_cm_info {}
 class cachestore_addinstance_form extends \core_cache\form\cachestore_addinstance_form {}
 class cachestore_dummy extends \core_cache\dummy_cachestore {}
+class cm_info extends \core_course\cm_info {}
 class coding_exception extends \core\exception\coding_exception {}
 class combined_progress_trace extends \core\output\progress_trace\combined_progress_trace {}
+class comment extends \core_comment\manager {}
+class comment_exception extends \core_comment\comment_exception {}
 class component_action extends \core\output\actions\component_action {}
 class confirm_action extends \core\output\actions\confirm_action {}
 abstract class context extends \core\context {}
@@ -90,6 +96,9 @@ class core_renderer_ajax extends \core\output\core_renderer_ajax {}
 class core_renderer_cli extends \core\output\core_renderer_cli {}
 class core_renderer_maintenance extends \core\output\core_renderer_maintenance {}
 class core_user extends \core\user {}
+class core_xml_parser extends \core\xml_parser {}
+class course_modinfo extends \core_course\modinfo {}
+class course_request extends \core_course\course_request {}
 class custom_menu extends \core\output\custom_menu {}
 class custom_menu_item extends \core\output\custom_menu_item {}
 
@@ -166,6 +175,7 @@ class require_login_session_timeout_exception extends \core\exception\require_lo
 class required_capability_exception extends \core\exception\required_capability_exception {}
 class restricted_context_exception extends \core_external\restricted_context_exception {}
 
+class section_info extends \core_course\section_info {}
 class single_button extends \core\output\single_button {}
 class single_select extends \core\output\single_select {}
 class standard_renderer_factory extends \core\output\renderer_factory\standard_renderer_factory {}
@@ -185,6 +195,7 @@ class url_select extends \core\output\url_select {}
 class user_picture extends \core\output\user_picture {}
 
 class xhtml_container_stack extends \core\output\xhtml_container_stack {}
+class xml_format_exception extends \core\exception\xml_format_exception {}
 
 class YUI_config extends \core\output\requirements\yui {}
 
