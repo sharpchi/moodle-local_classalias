@@ -22,8 +22,6 @@
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
-use core_course\cached_cm_info as Core_courseCached_cm_info;
-
 // phpcs:ignoreFile
 
 die();
