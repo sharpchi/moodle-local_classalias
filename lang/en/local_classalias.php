@@ -19,7 +19,7 @@
  *
  * @package    local_classalias
  * @category   string
- * @copyright  2024 YOUR NAME <your@email.com>
+ * @copyright  2024 Mark Sharp <mark.sharp@solent.ac.uk>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 

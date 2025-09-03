@@ -15,7 +15,7 @@
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
 /**
- * TODO describe file donotload
+ * Old class -> New class mapping
  *
  * @package    local_classalias
  * @copyright  2024 Mark Sharp <mark.sharp@solent.ac.uk>
