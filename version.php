@@ -25,8 +25,8 @@
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component    = 'local_classalias';
-$plugin->release      = '2.0';
-$plugin->version      = 2025092900;
+$plugin->release      = '2.1';
+$plugin->version      = 2025092901;
 $plugin->requires     = 2025082900.00;
 $plugin->supported    = [501, 501];
 $plugin->maturity     = MATURITY_STABLE;

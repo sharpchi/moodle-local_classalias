@@ -14,16 +14,24 @@
 // You should have received a copy of the GNU General Public License
 // along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
 
+namespace local_classalias\privacy;
+
+use core_privacy\local\metadata\null_provider;
+
 /**
- * English language pack for local_classalias
+ * Class provider
  *
  * @package    local_classalias
- * @category   string
- * @copyright  2024 Mark Sharp <mark.sharp@solent.ac.uk>
+ * @copyright  2025 Southampton Solent University {@link https://www.solent.ac.uk}
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
-
-defined('MOODLE_INTERNAL') || die();
-
-$string['pluginname'] = 'Class aliases';
-$string['privacy:metadata'] = 'Class aliases does not store any user data';
+class provider implements null_provider {
+    /**
+     * Reason for no user data
+     *
+     * @return string
+     */
+    public static function get_reason(): string {
+        return 'privacy:metadata';
+    }
+}
