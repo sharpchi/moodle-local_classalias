@@ -26,3 +26,4 @@
 defined('MOODLE_INTERNAL') || die();
 
 $string['pluginname'] = 'Class aliases';
+$string['privacy:metadata'] = 'Class aliases does not store any user data';
