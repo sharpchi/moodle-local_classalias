@@ -36,6 +36,7 @@ class action_menu_link_secondary extends \core\output\action_menu\link_secondary
 class badge extends \core_badges\badge {}
 class block_contents extends \core_block\output\block_contents {}
 class bootstrap_renderer extends \core\output\bootstrap_renderer {}
+class breadcrumb_navigation_node extends \core\navigation\breadcrumb_navigation_node {};
 
 class cache extends \core_cache\cache {};
 class cache_application extends \core_cache\application_cache {}
@@ -119,7 +120,12 @@ class file_serving_exception extends \core\exception\file_serving_exception {}
 abstract class filter_local_settings_form extends \core_filters\local_settings_form {}
 class filter_manager extends \core_filters\filter_manager {}
 class filterobject extends \core_filters\filter_object {}
+class flat_navigation extends \core\navigation\flat_navigation_node {}
+class flat_navigation_node extends \core\navigation\flat_navigation_node {}
 class flexible_table extends \core_table\flexible_table {}
+
+class global_navigation extends \core\navigation\global_navigation {}
+class global_navigation_for_ajax extends \core\navigation\global_navigation_for_ajax {}
 
 class help_icon extends \core\output\help_icon {}
 class html_list_progress_trace extends \core\output\progress_trace\html_list_progress_trace {}
@@ -146,6 +152,11 @@ class moodle_exception extends \core\exception\moodle_exception {}
 abstract class moodle_text_filter extends \core_filters\text_filter {}
 class moodle_url extends \core\url {}
 
+class navbar extends \core\navigation\navbar {}
+class navigation_cache extends \core\navigation\navigation_cache {}
+class navigation_json extends \core\navigation\navigation_json {}
+class navigation_node extends \core\navigation\navigation_node {}
+class navigation_node_collection extends \core\navigation\navigation_node_collection {}
 class null_filter_manager extends \core_filters\null_filter_manager {}
 class null_progress_trace extends \core\output\progress_trace\null_progress_trace {}
 
@@ -174,6 +185,8 @@ class required_capability_exception extends \core\exception\required_capability_
 class restricted_context_exception extends \core_external\restricted_context_exception {}
 
 class section_info extends \core_course\section_info {}
+class settings_navigation extends \core\navigation\settings_navigation {}
+class settings_navigation_for_ajax extends \core\navigation\settings_navigation_ajax {}
 class single_button extends \core\output\single_button {}
 class single_select extends \core\output\single_select {}
 class standard_renderer_factory extends \core\output\renderer_factory\standard_renderer_factory {}
