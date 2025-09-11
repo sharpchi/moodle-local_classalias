@@ -120,7 +120,7 @@ class file_serving_exception extends \core\exception\file_serving_exception {}
 abstract class filter_local_settings_form extends \core_filters\local_settings_form {}
 class filter_manager extends \core_filters\filter_manager {}
 class filterobject extends \core_filters\filter_object {}
-class flat_navigation extends \core\navigation\flat_navigation_node {}
+class flat_navigation extends \core\navigation\flat_navigation {}
 class flat_navigation_node extends \core\navigation\flat_navigation_node {}
 class flexible_table extends \core_table\flexible_table {}
 
