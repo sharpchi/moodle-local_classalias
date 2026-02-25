@@ -111,6 +111,9 @@ class file_picker extends \core\output\file_picker {}
 class file_serving_exception extends \core\exception\file_serving_exception {}
 abstract class filter_local_settings_form extends \core_filters\local_settings_form {}
 class filter_manager extends \core_filters\filter_manager {}
+if (class_exists('\filter_embedquestion\text_filter')) {
+    class filter_embedquestion extends \filter_embedquestion\text_filter {}
+}
 class filterobject extends \core_filters\filter_object {}
 class flexible_table extends \core_table\flexible_table {}
 
