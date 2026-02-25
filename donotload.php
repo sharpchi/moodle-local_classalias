@@ -118,6 +118,9 @@ class external_warnings extends \core_external\external_warnings {}
 class file_picker extends \core\output\file_picker {}
 class file_serving_exception extends \core\exception\file_serving_exception {}
 abstract class filter_local_settings_form extends \core_filters\local_settings_form {}
+if (class_exists('\filter_embedquestion\text_filter')) {
+    class filter_embedquestion extends \filter_embedquestion\text_filter {}
+}
 class filter_manager extends \core_filters\filter_manager {}
 class filterobject extends \core_filters\filter_object {}
 class flat_navigation extends \core\navigation\flat_navigation {}
